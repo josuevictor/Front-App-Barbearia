@@ -1,0 +1,51 @@
+main {
+  padding: .5rem;
+}
+
+h3 {
+  font-family: Arial, sans-serif; 
+  font-weight: 100;
+}
+
+.professional-list {
+  overflow-x: auto; /* Adiciona a rolagem vertical */
+
+}
+
+main div ul {
+  display: flex; 
+  flex-direction: column;
+  gap: 2rem; 
+  max-height: 300px;
+  
+}
+
+
+main div ul li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 3rem 1rem;
+  color: #000000; 
+  font-family: Arial, sans-serif; 
+  font-weight: 700;
+  font-size: 1.2rem; 
+  border: .5px solid rgba(0, 0, 0, 0.5);
+
+}
+
+main div ul li div small{
+  font-weight: 100;
+}
+
+button{
+  border-radius: 5px;
+  padding: .4rem;
+  border: solid 1px;
+  background-color: #2b2b2b;
+  color: #fff;
+  font-weight: 700;
+}
+
+
+

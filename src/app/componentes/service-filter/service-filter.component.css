@@ -1,0 +1,50 @@
+main {
+  padding: 4rem;
+}
+
+h3 {
+  font-family: Arial, sans-serif; /* Define a fonte do texto */
+  font-weight: 100;
+}
+
+main div ul {
+  display: grid; /* Cria um layout em grade */
+  grid-template-columns: repeat(4, 1fr); /* Define 4 colunas fixas */
+  grid-template-rows: repeat(2, auto); /* Define 2 linhas fixas */
+  gap: 1rem; /* Adiciona espaçamento entre os itens */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  align-items: center; /* Centraliza os itens verticalmente */
+  padding: 2rem; /* Adiciona espaçamento interno ao contêiner */
+  max-height: 300px; /* Define uma altura máxima para permitir a rolagem */
+}
+
+
+
+main div ul li {
+  display: flex; /* Torna o item flexível para facilitar o alinhamento */
+  justify-content: center; /* Centraliza o texto horizontalmente */
+  align-items: center; /* Centraliza o texto verticalmente */
+  background-color: #2b2b2b; /* Define a cor de fundo preta */
+  color: #fff; /* Define a cor do texto branca */
+  font-family: Arial, sans-serif; /* Define a fonte do texto */
+  font-weight: 700;
+  font-size: 1.2rem; /* Tamanho da fonte */
+  padding: 1rem .5rem; /* Adiciona espaçamento interno */
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona sombra para destaque */
+  cursor: pointer; /* Adiciona um cursor de "mão" para indicar clique */
+  text-align: center; /* Alinha o texto ao centro */
+}
+
+main div ul li:hover {
+  background-color: #444; /* Muda a cor de fundo no hover */
+}
+
+.services {
+  overflow-y: auto; /* Adiciona a rolagem vertical */
+  padding: 1rem 2rem; /* Espaçamento interno */
+
+}
+
+
+

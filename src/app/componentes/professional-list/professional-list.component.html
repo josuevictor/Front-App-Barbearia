@@ -1,0 +1,21 @@
+<main>
+  <h3>Profissionais</h3>
+
+
+    <div class="professional-list">
+      <ul>
+        <li *ngFor="let professional of professionals">
+          <i class="fa-solid fa-user"></i>
+            <div>
+              <h3>{{ professional.name }}</h3>
+              <app-star-rating [rating]="professional.rating"></app-star-rating>  
+            </div>          
+            <div class="acoes">
+              <button type="submit">Escolher</button>
+            </div>
+        </li>
+      </ul>
+    </div>
+
+    <hr>
+</main>

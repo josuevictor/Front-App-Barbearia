@@ -1,0 +1,15 @@
+.star-rating {
+  display: flex;
+  cursor: pointer;
+}
+
+.star {
+  font-size: 2rem;
+  color: #797979;
+  transition: color 0.2s ease-in-out;
+}
+
+.star.filled {
+  color: rgb(240, 171, 43); /* Amarelo para estrelas preenchidas */
+}
+

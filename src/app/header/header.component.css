@@ -1,0 +1,51 @@
+.cabecalho {
+  background: url(/assets/imagens/fundo-cabecalho.png);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.cabecalho .header{
+  display: flex;
+  justify-content: space-between;
+  width: 46%;
+  padding: 1.5rem 1rem;
+}
+
+.cabecalho .search-bar{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.cabecalho .input-search {
+  border-radius: 5px;
+  width: 250px;
+  height: 30px;
+  padding: .5rem 1rem;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+  font-size: 16px; /* Define um tamanho de fonte para evitar o zoom */
+}
+
+
+
+@media (max-width: 576px) {
+  .cabecalho .header {
+    padding: 2rem;
+  }
+  .cabecalho p {
+    font-size: 1.5rem
+  }
+}
+
+@media (max-width: 768px) {
+  .cabecalho .header {
+    width: 90%;
+  }
+  .cabecalho .imagem {
+    display: none;
+  }
+}

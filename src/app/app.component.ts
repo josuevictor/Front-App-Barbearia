@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'agendamento';
+  userRating: number = 3; // Avaliação inicial
+
+  // Método para atualizar a avaliação
+  onRatingChange(newRating: number) {
+    this.userRating = newRating;
+    console.log('Nova avaliação:', newRating);
+  }
 }

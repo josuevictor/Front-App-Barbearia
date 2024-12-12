@@ -24,6 +24,7 @@ main div ul {
 main div ul li {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 1rem;
   padding: 3rem 1rem;
   color: #000000; 
@@ -40,7 +41,7 @@ main div ul li div small{
 
 button{
   border-radius: 5px;
-  padding: .4rem;
+  padding: .8rem;
   border: solid 1px;
   background-color: #2b2b2b;
   color: #fff;

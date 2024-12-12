@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class ProfessionalListComponent {
   professionals = [
-    { name: 'Fulano de Tal', rating: 4 },
+    { name: 'Fulano de Tal', rating: 5 },
     { name: 'Fulano da silva', rating: 5 },
     { name: 'Fulano dos santos', rating: 5 },
     { name: 'Fulano de Tal', rating: 5 },
@@ -17,4 +17,8 @@ export class ProfessionalListComponent {
     { name: 'Fulano de Tal', rating: 5 },
 
   ];
+
+  click(){
+    alert('clicou')
+  }
 }

@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { ServiceFilterComponent } from './componentes/service-filter/service-filter.component';
 import { ProfessionalListComponent } from './componentes/professional-list/professional-list.component';
 import { StarRatingComponent } from './componentes/star-rating/star-rating.component';
+import { DatePickerComponent } from './componentes/date-picker/date-picker.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { StarRatingComponent } from './componentes/star-rating/star-rating.compo
     HeaderComponent,
     ServiceFilterComponent,
     ProfessionalListComponent,
-    StarRatingComponent
+    StarRatingComponent,
+    DatePickerComponent,
   ],
   imports: [
     BrowserModule
